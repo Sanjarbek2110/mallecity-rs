@@ -431,6 +431,7 @@
 .individual {
     display: flex;
     gap: 20px;
+    justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
     margin: auto;
@@ -817,6 +818,7 @@ advantages .advantages {
 
 .personal__right-img{
     height: 119px;
+    margin-left: auto;
 }
 
 .partners__title {
@@ -835,7 +837,7 @@ advantages .advantages {
     justify-content: center;
 }
 .kokos .individual__item{
-    width: 297px;
+    width: 33.333%;
 }
 
 .shared__text-txt{
@@ -1434,7 +1436,7 @@ html, body {
     text-align: center;
     background-color: #FA4600;
     border-radius: 25px;
-    width: 35%;
+    width: 43%;
 }
 
 .hair__title {
