@@ -22,7 +22,7 @@
 
 .cosmetics__background {
     background-color: black;
-    height: 850px;
+    height: 790px;
 }
 
 .cosmetics__bg-image {
@@ -42,8 +42,7 @@
 }
 
 .cosmetics__logo {
-    margin-top: 50px;
-    margin-bottom: 280px;
+    margin-bottom: 390px;
 }
 
 .cosmetics__logo-img {
@@ -58,7 +57,7 @@
     line-height: 1.1;
     text-transform: uppercase;
     margin: 0;
-    margin-bottom: 109px;
+    margin-bottom: 38px;
     width: 100%;
     height: 109px;
     color: white;
@@ -71,12 +70,17 @@
     line-height: 1.1;
     width: 100%;
     height: 44px;
-    margin-bottom: 82px;
+    margin-bottom: 32px;
 }
 
 .cosmetics__bottom {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.cosmetics__bottom-img img{
+    width: 150px;
 }
 
 .this {
@@ -94,7 +98,7 @@
 .this__title {
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     font-size: 32px;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 1.1;
     text-transform: uppercase;
     color: #000000;
@@ -171,12 +175,12 @@
 
 }
 
+.mobc{
+    display: none;
+}
+
 @media (max-width: 480px) {
 
-    .cosmetics__background,
-    .cosmetics__bg-image {
-        height: 520px;
-    }
 
     .cosmetics__logo {
         margin-top: 20px;
@@ -220,10 +224,9 @@
 
 .benefits__container {
     position: relative;
-    max-width: 85%;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
-    gap: 50px;
     height: 100%;
 }
 
@@ -259,10 +262,11 @@
     background-color: #FA4600;
     position: relative;
     z-index: 2;
+    padding-left: 90px;
 }
 
 .benefits__item {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .benefits__item:last-child {
@@ -274,8 +278,13 @@
 }
 
 .benefits__check-icon {
-    width: 23px;
-    height: 21px;
+    width: 32px;
+    height: 30px;
+}
+
+.ww3{
+    width: 50%;
+    height: 730px;
 }
 
 .benefits__title {
@@ -283,12 +292,13 @@
     align-items: center;
     font-size: 1.5rem;
     color: #fff;
+    font-weight: 600;
+    line-height: 30px;
     margin-bottom: 15px;
     text-align: left;
 }
 
 .benefits__text {
-    font-size: 1rem;
     color: #fff;
     line-height: 1.4;
     text-align: left;
@@ -335,8 +345,7 @@
 }
 
 .aesthetics__img {
-    width: 304px;
-    height: 380px;
+    width: 68%;
     object-fit: cover;
 }
 
@@ -352,7 +361,9 @@
 }
 
 .aesthetics__item {
-    margin-bottom: 40px;
+    margin-bottom: 150px;
+    width: 450px;
+    margin-left: auto;
 }
 
 .aesthetics__item:last-child {
@@ -378,22 +389,25 @@
     font-size: 1.5rem;
     color: #000;
     margin: 0;
+    font-weight: 700;
     text-align: left;
 }
 
 .aesthetics__text1 {
-    font-size: 1.5rem;
+    font-size: 20px;
     color: #000;
     line-height: 1.1;
+    line-height: 110.00000000000001%;
     text-align: left;
     margin: 0;
 }
 
 .aesthetics__text {
-    font-size: 1.5rem;
+    font-size: 20px;
     color: #000;
     line-height: 1.1;
     text-align: right;
+    line-height: 110.00000000000001%;
     margin: 0;
     max-width: 80%;
 }
@@ -403,7 +417,10 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    margin: 0 auto;
+}
+
+.aua{
+    margin-right: -50px;
 }
 
 .imageoll {
@@ -413,7 +430,6 @@
 
 .individual {
     display: flex;
-    flex-direction: column;
     gap: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -536,6 +552,7 @@
     display: flex;
     justify-content: space-between;
     width: 85%;
+    align-items: center;
     margin: auto;
 }
 
@@ -587,6 +604,7 @@ advantages .advantages {
     display: flex;
     flex-direction: column;
     height: 60%;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -598,6 +616,10 @@ advantages .advantages {
 
 }
 
+.assl{
+    margin-left: auto;
+}
+
 .advantages__card-text {
     font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     font-weight: 400;
@@ -607,8 +629,8 @@ advantages .advantages {
 }
 
 .advantages__right-column {
+    width: 100%;
     border-radius: 5px;
-    width: 200%;
 }
 
 .ll1 .individual__item{
@@ -616,10 +638,9 @@ advantages .advantages {
 }
 
 .advantages__image {
-    max-width: 100%;
-    height: 100%;
+    width: 100%;
+    height: 783px;
     object-fit: cover;
-    margin-top: 20px;
 }
 
 @media(max-width:771px){
@@ -633,11 +654,16 @@ advantages .advantages {
 }
 }
 
+.kok{
+    width: auto;
+    margin: 70px auto;
+}
+
 .hotel__title {
     border: 1px dashed #000;
     border-radius: 25px;
     padding: 21px 15px;
-    width: 85%;
+    width: 796px;
     margin: 51px auto;
 }
 
@@ -716,10 +742,6 @@ advantages .advantages {
     padding-bottom: 60px;
 }
 
-.partners__image-img.s1{
-    width: 110px;
-}
-
 .accortiment{
     margin: 0 auto;
     width: 85%;
@@ -727,7 +749,20 @@ advantages .advantages {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: end;
-    gap: 0 136px;
+    gap: 0 60px;
+}
+
+.akat .individual__item{
+    width: 33.33%;
+}
+
+.partners__image-img{
+    width: 193px;
+}
+
+.partners__image{
+    flex-wrap: wrap;
+    gap: 15px 75px;
 }
 
 .titleeeq{
@@ -777,6 +812,11 @@ advantages .advantages {
 
 .partners {
     margin: 60px 0;
+    margin-bottom: 0;
+}
+
+.personal__right-img{
+    height: 119px;
 }
 
 .partners__title {
@@ -789,10 +829,23 @@ advantages .advantages {
     color: #202020;
 }
 
+.personal__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.kokos .individual__item{
+    width: 297px;
+}
+
+.shared__text-txt{
+    width: 472px !important;
+}
+
 .partners__image {
     padding-top: 73px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 85%;
     margin: auto;
 }
@@ -1696,9 +1749,34 @@ html, body {
 }
 
 .shared__right-img {
-    width: 100%;
+    width: 484px;
     height: 100%;
     object-fit: cover;
+}
+
+.lo{
+    width: 960px;
+    margin: 0 auto;
+    margin-bottom: 68px;
+}
+
+.cups .individual__item{
+    width: 33.333%;
+}
+
+.product__tex{
+    position: relative;
+}
+
+.product__tex::after{
+    content: '';
+    position: absolute;
+    left: -20px;
+    top: 8px;
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: #000000;
 }
 
 .shared8 {
@@ -1766,7 +1844,7 @@ html, body {
 }
 
 .shared__right-img5 {
-    max-height: 500px;
+    width: 483px;
 }
 
 .shared__left5 {
@@ -1790,7 +1868,7 @@ html, body {
 }
 
 .shared__right-img6 {
-    max-height: 500px;
+    width: 487px;
     object-fit: contain;
 }
 
@@ -1798,7 +1876,25 @@ html, body {
     width: 40%;
 }
 
+.shared__right6{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
 
+.shared__right6 .shared__text-txt{
+    margin-bottom: 48px;
+    text-align: right;
+}
+
+.kasi{
+    transform: rotate(180deg);
+    margin-left: auto;
+}
+
+.shared__text6{
+    margin-left: auto;
+}
 
 .shared7 {
     display: grid;
@@ -1817,6 +1913,18 @@ html, body {
     .shared5 {
         flex-direction: column;
         padding-bottom: 20px !important;
+    }
+
+    .cosmetics__title br{
+        display:none !important;
+    }
+
+    .cosmetics__content{
+        width:83%;
+    }
+
+    .cosmetics__subtitle br{
+        display:none !important;
     }
 
     .aaa1 {
@@ -1893,3 +2001,215 @@ html, body {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+.mobc{
+    display: none;
+}
+
+@media (max-width: 700px){
+    .this__title{
+        font-size: 20px;
+    }
+
+    .ww3{
+        display: none;
+    }
+
+    .benefits__content{
+        margin: 0 28px;
+    }
+
+    .mobc{
+        display: block;
+        margin-top: 50px;
+    }
+
+    .aesthetics{
+        display: none;
+    }
+
+    .individual{
+        flex-direction: column;
+    }
+    
+    .arer{
+        display: none;
+    }
+
+    .kettik{
+        display: block !important;
+    }
+    
+    .kok{
+        display: none;
+    }
+    
+    .acsi{
+        display: none;
+    }
+
+    .akat .individual__item{
+        width: 100%;
+    }
+
+    .partners__image-img{
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    .partners{
+        margin-bottom: 50px;
+    }
+
+    .ska{
+        margin-top: 50px;
+    }
+
+    .benefits{
+        margin-bottom: 0;
+    }
+
+    .beauty__left, .beauty__right{
+        align-items: center;
+        text-align: center;
+    }
+
+    .beauty__text{
+        margin-right: auto;
+    }
+
+    .beauty{
+        padding-bottom: 0;
+    }
+
+    .guest-benefits__img{
+        margin-top: 50px;
+    }
+
+    .kokos{
+        align-items:center;
+    }
+
+    .shared__right-img{
+        width: 100%;
+    }
+
+    .k2{
+        display: flex !important;
+        margin-bottom: 50px;
+    }
+
+    .k6 p{
+            font-size: 18px;
+    font-weight: 500;
+    }
+
+    .citiess1 {
+        padding: 0 10px;
+    }
+
+    .cups .individual__item{
+        width: 100%;
+    }
+
+    .individual__item:nth-child(1){
+        height: auto;
+    }
+
+    .shared__text-txt{
+        width: auto !important;
+    }
+
+    .shared__right6 .shared__text-txt{
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    .guest-benefits__img{
+        margin: 0;
+    }
+
+    .imageoll{
+        margin: 0;
+        margin-bottom: 15px;
+    }
+
+    .shared__text-title5{
+        padding: 25px 0;
+    }
+
+    .shared__right-img6{
+        margin-top: 20px;
+    }
+
+    .shared7{
+        padding-bottom: 20px;
+    }
+
+    .this__logo{
+        margin-right: auto;
+    }
+
+    .shared8{
+        padding-bottom: 30px;
+    }
+
+    .benefits{
+        min-height: auto;
+    }
+
+    .s12{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        margin-bottom: 40px;
+    }
+
+    .riooe{
+        margin-left: -60px !important;
+    }
+
+    .ber{
+        margin-left: 0 !important;
+    }
+
+    .tokyoo{
+        margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 700px) {
+
+  .series__right {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 16px;
+    padding-bottom: 10px;
+  }
+
+  .series__right::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .series__right::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .series__right::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.3);
+    border-radius: 10px;
+  }
+
+  .series__img {
+    flex: 0 0 100%;
+    scroll-snap-align: center;
+    width: 100%;
+    height: 260px;
+    border-radius: 20px;
+  }
+}
+
+
